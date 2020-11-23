@@ -521,6 +521,7 @@ mark {
   border-right: 4px solid var(--primary-bright);
   color: var(--secondary-darker); }
 
+.p,
 p {
   font-size: 1rem;
   line-height: var(--line-height);

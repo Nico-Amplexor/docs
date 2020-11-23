@@ -624,6 +624,7 @@ a[rel~="external"] {
   --font-weight-medium: 500;
   --font-weight-normal: 400;
   --font-weight-light: 300;
+  --line-height: 1.5rem;
 
   /* DITA-OT color scheme */
 
@@ -666,7 +667,7 @@ Basic fonts and typography
   color: var(--code-color);
   font-size: 1.25rem;
   font-weight: var(--font-weight-light);
-  line-height: 2rem;
+  line-height: 1.75rem;
 }
 
 code,

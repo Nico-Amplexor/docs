@@ -649,9 +649,9 @@ Basic fonts and typography
 }
 
 .header p {
-  color: var(--primary-dark);
+  color: var(--headings-color);
   font-size: 1.5rem;
-  margin: 0;
+  margin: 0 0 16px;
 }
 
 .header hr {

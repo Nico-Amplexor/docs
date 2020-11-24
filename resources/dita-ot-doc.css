@@ -819,6 +819,21 @@ figcaption {
   text-align: left;
 }
 
+table code,
+table pre,
+table samp,
+table .cmdname,
+table .codeph,
+table .filepath,
+table .msgnum,
+table .option,
+table .parmname,
+table .varname {
+  color: var(--code-color);
+  font-family: var(--font-family-monospace);
+  font-size: 0.875rem;
+}
+
 /****************************************
 Navigation
 ****************************************/

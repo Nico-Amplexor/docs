@@ -770,6 +770,12 @@ h1 .filepath {
   color: var(--brand-primary);
 }
 
+h1 .codeph,
+h2 code,
+h2 .codeph {
+  font-size: inherit;
+}
+
 .sectiontitle {
   color: var(--brand-primary);
   font-size: 2rem;

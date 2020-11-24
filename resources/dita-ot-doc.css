@@ -858,12 +858,25 @@ tr {
   border-bottom-color: var(--secondary-light);
 }
 
+th {
+  text-align: left;
+}
+
 caption,
 figcaption {
   color: var(--code-color);
   font-style: italic;
-  padding: 1rem 0;
   text-align: left;
+}
+
+table caption {
+  padding-bottom: 1rem;
+}
+
+caption code,
+figcaption code,
+figcaption .filepath {
+  font-size: 0.875rem;
 }
 
 table code,

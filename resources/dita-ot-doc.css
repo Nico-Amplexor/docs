@@ -934,8 +934,8 @@ Glossary
   color: var(--code-color);
   font-size: 0.9rem;
   font-style: italic;
-  font-weight: normal;
-  margin-left: 2rem;
+  font-weight: var(--font-weight-bold);
+  margin-left: 1rem;
 }
 
 .glossAbbreviation::before,
@@ -947,6 +947,14 @@ Glossary
 .glossAcronym::after {
   content: '”';
 }
+
+.glossdef {
+  line-height: 1.5rem;
+}
+
+/****************************************
+Video link icons for DITA-OT Day talks
+****************************************/
 
 /* Append video icon to DITA-OT Day links in related links and link lists (but not in page footers) */
 a.link[href*='dita-ot_day']::after,

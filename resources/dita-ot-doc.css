@@ -539,7 +539,7 @@ pre {
     display: block;
     font-size: 1rem;
     line-height: 1.5rem;
-    padding: .5rem; }
+    padding: 0.5rem 0.75rem; }
 
 progress {
   display: inline-block;
@@ -672,6 +672,10 @@ Basic fonts and typography
   line-height: 1.75rem;
 }
 
+/****************************************
+Code typography
+****************************************/
+
 code,
 pre,
 samp,
@@ -695,6 +699,48 @@ samp,
 .codeblock .varname,
 pre code samp,
 pre code {
+  font-size: 0.8125rem;
+}
+
+.syntaxdiagram {
+  color: var(--code-color);
+}
+
+.syntaxdiagram blockquote {
+  background-color: var(--pre-bg);
+  border-radius: 4px;
+  border: 1px solid var(--pre-border-color);
+  font-size: 0.8125rem;
+  line-height: 1.5rem;
+  margin: 1rem;
+  padding: 0.5rem 0.75rem;
+}
+
+.syntaxdiagram blockquote::before {
+  content: "";
+}
+
+.syntaxdiagram kbd {
+  background: none;
+  border: none;
+  color: var(--code-color);
+  padding: 0;
+}
+
+.syntaxdiagram code,
+.syntaxdiagram kbd,
+.syntaxdiagram pre,
+.syntaxdiagram samp,
+.syntaxdiagram var,
+.syntaxdiagram .cmdname,
+.syntaxdiagram .codeph,
+.syntaxdiagram .filepath,
+.syntaxdiagram .msgnum,
+.syntaxdiagram .option,
+.syntaxdiagram .parmname,
+.syntaxdiagram .varname {
+  color: var(--code-color);
+  font-family: var(--font-family-monospace);
   font-size: 0.8125rem;
 }
 

@@ -855,6 +855,7 @@ Notes
 ****************************************/
 
 .note {
+  line-height: var(--line-height);
   margin-left: 1rem;
   margin-right: 1rem;
   padding: 0;

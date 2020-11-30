@@ -143,7 +143,7 @@ table {
 
 thead {
   background-color: var(--secondary-lighter);
-  box-shadow: inset 0 -2px var(--secondary); }
+/*box-shadow: inset 0 -2px var(--secondary);*/ }
 
 tfoot {
   box-shadow: inset 0 2px var(--secondary); }
@@ -870,9 +870,20 @@ table,
   padding: 0.5rem;
 }
 
+.stentry,
 .rowsep-1,
+thead,
 tr {
   border-bottom-color: var(--secondary-light);
+}
+
+.chhead,
+.sthead {
+  border-top-color: var(--secondary-light);
+}
+
+.stentry {
+  border-right-color: var(--secondary-light);
 }
 
 th {

@@ -686,6 +686,10 @@ samp,
 .varname {
   color: var(--code-color);
   font-family: var(--font-family-monospace);
+  font-size: 0.9375em;
+}
+
+.filepath .varname {
   font-size: 0.9375rem;
 }
 

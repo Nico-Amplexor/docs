@@ -162,7 +162,7 @@ th {
 th {
   font-weight: var(--font-weight-bold); }
 
-input:not([type='file']),
+input:not([type="file"]),
 optgroup,
 option,
 textarea,
@@ -492,7 +492,6 @@ hgroup {
   hgroup h5,
   hgroup h6 {
     margin: 0; }
-
 /*
 hr {
   border: 0;

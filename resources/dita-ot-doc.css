@@ -625,7 +625,7 @@ a[rel~="external"] {
   --font-weight-medium: 500;
   --font-weight-normal: 400;
   --font-weight-light: 300;
-  --line-height: 1.5rem;
+  --line-height: 1.5em;
 
   /* DITA-OT color scheme */
 
@@ -668,7 +668,6 @@ Basic fonts and typography
   color: var(--code-color);
   font-size: 1.25rem;
   font-weight: var(--font-weight-light);
-  line-height: 1.75rem;
 }
 
 /****************************************
@@ -835,7 +834,6 @@ Notes
 ****************************************/
 
 .note {
-  line-height: 1.5rem;
   margin-left: 1rem;
   margin-right: 1rem;
   padding: 0;
